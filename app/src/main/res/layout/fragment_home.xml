@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@android:color/system_accent2_300"
+    tools:targetApi="s">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to new World..."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:inputType="textPersonName"
+        android:text="enter your first name"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:inputType="textPersonName"
+        android:text="enter your last name"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <EditText
+        android:id="@+id/gpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:inputType="text"
+        android:text="enter your GPA"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="200dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@android:color/system_accent2_600"
+        android:text="Profile"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/system_accent2_600"
+        android:text="     List     "
+        android:textSize="20dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginHorizontal="50dp"
+        />
+
+
+</FrameLayout>
